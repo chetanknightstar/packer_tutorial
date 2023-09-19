@@ -1,5 +1,5 @@
 source "amazon-ebs" "mypackerimage22" {
-  ami_name      = "learn-packer-linux-aws"
+  ami_name      = "learn-packer-linux-aws-chetan"
   instance_type = "t2.micro"
   region        = "us-east-2"
   source_ami_filter {
