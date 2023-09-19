@@ -1,4 +1,4 @@
-source "amazon-ebs" "mypackerimage" {
+source "amazon-ebs" "mypackerimage22" {
   ami_name      = "learn-packer-linux-aws"
   instance_type = "t2.micro"
   region        = "us-east-2"
@@ -17,7 +17,7 @@ source "amazon-ebs" "mypackerimage" {
 build {
   name = "learn-packer"
   sources = [
-    "source.amazon-ebs.mypackerimage"
+    "source.amazon-ebs.mypackerimage22"
   ]
   provisioner "shell" {
   inline = [
