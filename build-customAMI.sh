@@ -1,5 +1,3 @@
-sudo  su
-cd
 sudo apt-get update -y && sudo apt-get upgrade -y
 sudo apt-get install libtomcat9-java -y
 sudo apt-get update -y
